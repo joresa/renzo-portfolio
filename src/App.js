@@ -1,15 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-
-// src/App.js
 import React from 'react';
 import Navbar from './components/Navbar/Navbar';
+import Experience from './components/Experience/Experience';
 
 const App = () => {
     return (
         <div className="App">
             <Navbar />
-            {/* Other components */}
+            <Experience />
         </div>
     );
 };
