@@ -61,7 +61,7 @@ const toggleMenu = () => {
         <div className="flex items-center justify-between mb-8">
             {/* Logo on the left */}
             <a className="text-3xl font-bold leading-none" href="#Logo">
-               {/* <img src={Logo} alt="Logo" className="h-10" /> */}
+               {/* <img src={Logo} alt="Logo" className="h-10" /> */} RENZO
             </a>
 
             {/* Close button on the right */}
