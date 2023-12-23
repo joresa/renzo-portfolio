@@ -65,15 +65,14 @@ const Experience = () => {
                 </p>
                 {isExpanded && (
                   <div className='jobText'>
-                  <ul className="list-disc ml-6">
-                    {element.jobRoles.map((role, index) => (
-                      <li key={index}>{role}</li>
-                    ))}
-                  </ul>
-                </div>
-                
+                    <ul className="list-disc ml-6">
+                      {element.jobRoles.map((role, index) => (
+                        <li key={index}>{role}</li>
+                      ))}
+                    </ul>
+                  </div>
                 )}
-                <button className="view-more-button" onClick={() => toggleExpand(element.id)}>
+                <button className="view-more-button button" onClick={() => toggleExpand(element.id)}>
                   {isExpanded ? 'View Less' : 'View More'}
                 </button>
               </VerticalTimelineElement>
