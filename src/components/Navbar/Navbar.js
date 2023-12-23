@@ -1,6 +1,5 @@
 import React from "react";
 import "./Navbar.css"; 
-//import LogoSVG from '../../assets/image/logoipsum-332.svg';
 import { useState } from "react";
 const Navbar = () => {
 const [isMenuOpen, setIsMenuOpen] = useState(false);
