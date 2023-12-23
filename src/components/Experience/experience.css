@@ -8,3 +8,10 @@
 .vertical-timeline-element-subtitle{
     font-weight: 400;
 }
+
+.button {
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    color: black;
+  }
