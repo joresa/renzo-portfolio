@@ -1,0 +1,10 @@
+.vertical-timeline-element-content p.job-description {
+    font-weight: normal; /* Remove boldness */
+  }
+
+.vertical-timeline-element-title{
+    font-weight: 500;
+}
+.vertical-timeline-element-subtitle{
+    font-weight: 400;
+}
