@@ -1,5 +1,6 @@
 .vertical-timeline-element-content p.job-description {
     font-weight: normal; /* Remove boldness */
+    font-size: 13px !important;
   }
 
 .vertical-timeline-element-title{
@@ -8,6 +9,14 @@
 .vertical-timeline-element-subtitle{
     font-weight: 400;
 }
+.vertical-timeline-element-date{
+  padding-left: 10px !important;
+}
+
+.vertical-timeline--two-columns .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content .vertical-timeline-element-date, .vertical-timeline--two-columns .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left) .vertical-timeline-element-content .vertical-timeline-element-date{
+  padding-right: 10px !important;
+}
+
 
 .button {
     text-decoration: none;
