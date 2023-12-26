@@ -19,6 +19,39 @@ const experienceData = [
             'Managing MongoDB databases to optimize data and ensure system performance.',
             'Utilizing experience in creating and consuming APIs to enhance system functionalities.'
         ],
+        skills:[
+            {
+                id: 1,
+                catergory: 'techStack',
+                skill: 'Angular'
+            },
+            {
+                id: 2,
+                catergory: 'techStack',
+                skill: 'Javascript'
+            },
+            {
+                id: 3,
+                catergory: 'techStack',
+                skill: 'MongoDB'
+            },
+            {
+                id: 4,
+                catergory: 'others',
+                skill: 'Mockaroo'
+            },
+            {
+                id: 4,
+                catergory: 'BusinessSoft',
+                skill: 'Risk Management'
+            },
+        ],
+        achievements: [
+            'Generated new business by creating an innovative new product, streamlining claims, and optimizing sales for our app.',
+            'Created innovative configurations that reduced claims and servicing call volumes by 50-60% for a key client, saving over $400,000, resulting in the reallocation of 1 million minutes to more complex projects.',
+            'Developed a comprehensive guide and tracking file for state-specific rule configuration and testing in insurance claims, now applied across all client environments.',
+            'Trained new hires, providing mentorship to accelerate their integration into the team and company culture.'
+        ],
         buttonText: 'View More',
         date: 'June 2021 - July 2023',
         icon: 'work',
@@ -36,6 +69,39 @@ const experienceData = [
             'Culpa eu pariatur occaecat ad.',
             'Adipisicing elit excepteur enim non id sunt ipsum irure consectetur minim proident ut.'
         ],
+        skills:[
+            {
+                id: 1,
+                catergory: 'techStack',
+                skill: 'Angular'
+            },
+            {
+                id: 2,
+                catergory: 'techStack',
+                skill: 'Javascript'
+            },
+            {
+                id: 3,
+                catergory: 'techStack',
+                skill: 'MongoDB'
+            },
+            {
+                id: 4,
+                catergory: 'others',
+                skill: 'Mockaroo'
+            },
+            {
+                id: 4,
+                catergory: 'BusinessSoft',
+                skill: 'Risk Management'
+            },
+        ],
+        achievements: [
+            'Generated new business by creating an innovative new product, streamlining claims, and optimizing sales for our app.',
+            'Created innovative configurations that reduced claims and servicing call volumes by 50-60% for a key client, saving over $400,000, resulting in the reallocation of 1 million minutes to more complex projects.',
+            'Developed a comprehensive guide and tracking file for state-specific rule configuration and testing in insurance claims, now applied across all client environments.',
+            'Trained new hires, providing mentorship to accelerate their integration into the team and company culture.'
+        ],
         buttonText: 'View More',
         date: 'January 2021 - June 2021',
         icon: 'work',
@@ -46,12 +112,45 @@ const experienceData = [
         location: 'Arlington, Virginia, USA ',
         company: 'Willis Towers Watson',
         companyWebsite: 'https://www.wtwco.com/',
-        jobDescription: 'Developed and deployed complex, multilingual web apps for 50 Fortune 500 clients, ensuring a 96.6% accuracy rate over 2 years. As a Subject Matter Expert (SME), tackled intricate issues in Dundas BI analytics, Confirmit hierarchy management, and Informatica Cloud data integration. Led server load management and created impactful analytics using Dundas BI, driving informed decision-making. Pioneered the EJM tool, elevating server performance by 50% during peak seasons. Led successful projects, met stringent quality criteria, and navigated complex regulatory frameworks, earning rapid promotions and commendations for contributions.',
+        jobDescription: 'Delivered complex multilingual web apps for 50+ Fortune 500 clients with a 96.6% accuracy rate over 2 years. As an SME, addressed intricate issues in Dundas BI analytics, Confirmit hierarchy management, and Informatica Cloud integration. Spearheaded server load management, produced impactful analytics in Dundas BI, and introduced the EJM tool, boosting server performance by 50% during peak periods. Recognized for leadership in projects, meeting high-quality standards, and navigating regulatory frameworks, resulting in rapid promotions and accolades.',
         jobRoles: [
             '3333Adipisicing reprehenderit voluptate ea id laboris amet do aute eiusmod.',
             'Voluptate aute ex sunt ex tempor.',
             'Culpa eu pariatur occaecat ad.',
             'Adipisicing elit excepteur enim non id sunt ipsum irure consectetur minim proident ut.'
+        ],
+        skills:[
+            {
+                id: 1,
+                catergory: 'techStack',
+                skill: 'Angular'
+            },
+            {
+                id: 2,
+                catergory: 'techStack',
+                skill: 'Javascript'
+            },
+            {
+                id: 3,
+                catergory: 'techStack',
+                skill: 'MongoDB'
+            },
+            {
+                id: 4,
+                catergory: 'others',
+                skill: 'Mockaroo'
+            },
+            {
+                id: 4,
+                catergory: 'BusinessSoft',
+                skill: 'Risk Management'
+            },
+        ],
+        achievements: [
+            'Generated new business by creating an innovative new product, streamlining claims, and optimizing sales for our app.',
+            'Created innovative configurations that reduced claims and servicing call volumes by 50-60% for a key client, saving over $400,000, resulting in the reallocation of 1 million minutes to more complex projects.',
+            'Developed a comprehensive guide and tracking file for state-specific rule configuration and testing in insurance claims, now applied across all client environments.',
+            'Trained new hires, providing mentorship to accelerate their integration into the team and company culture.'
         ],
         buttonText: 'View More',
         date: 'May 2017 - December 2020',
@@ -69,6 +168,39 @@ const experienceData = [
             'Voluptate aute ex sunt ex tempor.',
             'Culpa eu pariatur occaecat ad.',
             'Adipisicing elit excepteur enim non id sunt ipsum irure consectetur minim proident ut.'
+        ],
+        skills:[
+            {
+                id: 1,
+                catergory: 'techStack',
+                skill: 'Angular'
+            },
+            {
+                id: 2,
+                catergory: 'techStack',
+                skill: 'Javascript'
+            },
+            {
+                id: 3,
+                catergory: 'techStack',
+                skill: 'MongoDB'
+            },
+            {
+                id: 4,
+                catergory: 'others',
+                skill: 'Mockaroo'
+            },
+            {
+                id: 4,
+                catergory: 'BusinessSoft',
+                skill: 'Risk Management'
+            },
+        ],
+        achievements: [
+            'Generated new business by creating an innovative new product, streamlining claims, and optimizing sales for our app.',
+            'Created innovative configurations that reduced claims and servicing call volumes by 50-60% for a key client, saving over $400,000, resulting in the reallocation of 1 million minutes to more complex projects.',
+            'Developed a comprehensive guide and tracking file for state-specific rule configuration and testing in insurance claims, now applied across all client environments.',
+            'Trained new hires, providing mentorship to accelerate their integration into the team and company culture.'
         ],
         buttonText: 'View More',
         date: 'February 2019 - Present',
