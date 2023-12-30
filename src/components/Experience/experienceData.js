@@ -22,29 +22,114 @@ const experienceData = [
         skills:[
             {
                 id: 1,
-                catergory: 'techStack',
+                category: 'techStack',
                 skill: 'Angular'
             },
             {
                 id: 2,
-                catergory: 'techStack',
+                category: 'techStack',
                 skill: 'Javascript'
             },
             {
                 id: 3,
-                catergory: 'techStack',
+                category: 'techStack',
                 skill: 'MongoDB'
             },
             {
                 id: 4,
-                catergory: 'others',
+                category: 'others',
                 skill: 'Mockaroo'
             },
             {
-                id: 4,
-                catergory: 'BusinessSoft',
+                id: 5,
+                category: 'BusinessSoft',
                 skill: 'Risk Management'
             },
+            {
+                id: 6,
+                category: 'techStack',
+                skill: 'TypeScript'
+            },
+            {
+                id: 7,
+                category: 'techStack',
+                skill: 'Express.JS'
+            },
+            {
+                id: 8,
+                category: 'techStack',
+                skill: 'Node.JS',
+              },
+              {
+                id: 9,
+                category: 'techStack',
+                skill: 'REST API',
+              },
+              {
+                id: 10,
+                category: 'techStack',
+                skill: 'Webhooks',
+              },
+              {
+                id: 11,
+                category: 'techStack',
+                skill: 'Selenium WebDriver (Java)',
+              },
+              {
+                id: 12,
+                category: 'techStack',
+                skill: 'JSON',
+              },
+              {
+                id: 13,
+                category: 'techStack',
+                skill: 'XML',
+              },
+              {
+                id: 14,
+                category: 'techStack',
+                skill: 'Tailwind',
+              },
+              {
+                id: 15,
+                category: 'others',
+                skill: 'POSTMAN',
+              },
+              {
+                id: 16,
+                category: 'others',
+                skill: 'Gherkin',
+              },
+              {
+                id: 17,
+                category: 'others',
+                skill: 'CI/CD pipeline',
+              },
+              {
+                id: 18,
+                category: 'others',
+                skill: 'Docker Container',
+              },
+              {
+                id: 19,
+                category: 'others',
+                skill: 'Git/Bitbucket',
+              },
+              {
+                id: 20,
+                category: 'others',
+                skill: 'Microservice Architecture',
+              },
+              {
+                id: 21,
+                category: 'others',
+                skill: 'Data-Driven Architecture',
+              },
+              {
+                id: 22,
+                category: 'others',
+                skill: 'Cloud SaaS',
+              },
         ],
         achievements: [
             'Generated new business by creating an innovative new product, streamlining claims, and optimizing sales for our app.',
@@ -71,36 +156,85 @@ const experienceData = [
         ],
         skills:[
             {
-                id: 1,
-                catergory: 'techStack',
-                skill: 'Angular'
-            },
-            {
-                id: 2,
-                catergory: 'techStack',
-                skill: 'Javascript'
-            },
-            {
-                id: 3,
-                catergory: 'techStack',
-                skill: 'MongoDB'
-            },
-            {
-                id: 4,
-                catergory: 'others',
-                skill: 'Mockaroo'
-            },
-            {
-                id: 4,
-                catergory: 'BusinessSoft',
+                id: 23,
+                category: 'techStack',
+                skill: 'Excel',
+              },
+              {
+                id: 24,
+                category: 'techStack',
+                skill: 'VBA Macros',
+              },
+              {
+                id: 25,
+                category: 'techStack',
+                skill: 'MS Access',
+              },
+              {
+                id: 26,
+                category: 'techStack',
+                skill: 'Power BI',
+              },
+              {
+                id: 37,
+                category: 'BusinessSoft',
                 skill: 'Risk Management'
-            },
+              },
+              {
+                id: 27,
+                category: 'techStack',
+                skill: 'SQL',
+              },
+              {
+                id: 28,
+                category: 'techStack',
+                skill: 'Data Management',
+              },
+              {
+                id: 29,
+                category: 'techStack',
+                skill: 'Data cleansing',
+              },
+              {
+                id: 30,
+                category: 'techStack',
+                skill: 'Data Transformation',
+              },
+              {
+                id: 31,
+                category: 'techStack',
+                skill: 'Data Integration',
+              },
+              {
+                id: 32,
+                category: 'others',
+                skill: 'Gherkin Cucumber',
+              },
+              {
+                id: 33,
+                category: 'others',
+                skill: 'Selenium WebDriver',
+              },
+              {
+                id: 34,
+                category: 'others',
+                skill: 'BDD',
+              },
+              {
+                id: 35,
+                category: 'BusinessSoft',
+                skill: 'Financial Analysis',
+              },
+              {
+                id: 36,
+                category: 'BusinessSoft',
+                skill: 'Compensation analysis',
+              },
         ],
         achievements: [
-            'Generated new business by creating an innovative new product, streamlining claims, and optimizing sales for our app.',
-            'Created innovative configurations that reduced claims and servicing call volumes by 50-60% for a key client, saving over $400,000, resulting in the reallocation of 1 million minutes to more complex projects.',
-            'Developed a comprehensive guide and tracking file for state-specific rule configuration and testing in insurance claims, now applied across all client environments.',
-            'Trained new hires, providing mentorship to accelerate their integration into the team and company culture.'
+            'Performed data cleansing, handling, and transformation, streamlining data management processes using Excel, Macros, and other internal tools.',
+            'Collaborated with Compensation Analysts and cross-functional teams to upload client data into specific databases.',
+            'Produced validation queries with strict compliance to set standards while following business workflow.'
         ],
         buttonText: 'View More',
         date: 'January 2021 - June 2021',
@@ -121,36 +255,101 @@ const experienceData = [
         ],
         skills:[
             {
-                id: 1,
-                catergory: 'techStack',
-                skill: 'Angular'
-            },
-            {
-                id: 2,
-                catergory: 'techStack',
-                skill: 'Javascript'
-            },
-            {
-                id: 3,
-                catergory: 'techStack',
-                skill: 'MongoDB'
-            },
-            {
-                id: 4,
-                catergory: 'others',
-                skill: 'Mockaroo'
-            },
-            {
-                id: 4,
-                catergory: 'BusinessSoft',
-                skill: 'Risk Management'
-            },
+                id: 38,
+                category: 'techStack',
+                skill: 'HTML5',
+              },
+              {
+                id: 39,
+                category: 'techStack',
+                skill: 'CSS3',
+              },
+              {
+                id: 40,
+                category: 'techStack',
+                skill: 'JavaScript',
+              },
+              {
+                id: 41,
+                category: 'techStack',
+                skill: 'jQuery',
+              },
+              {
+                id: 42,
+                category: 'techStack',
+                skill: 'AJAX',
+              },
+              {
+                id: 43,
+                category: 'techStack',
+                skill: 'JSON',
+              },
+              {
+                id: 44,
+                category: 'techStack',
+                skill: 'Bootstrap',
+              },
+              {
+                id: 45,
+                category: 'techStack',
+                skill: 'VueJS',
+              },
+              {
+                id: 46,
+                category: 'techStack',
+                skill: 'PHP',
+              },
+              {
+                id: 47,
+                category: 'techStack',
+                skill: 'PERL',
+              },
+              {
+                id: 48,
+                category: 'techStack',
+                skill: 'SQL',
+              },
+              {
+                id: 49,
+                category: 'techStack',
+                skill: 'Shell Scripting',
+              },
+              {
+                id: 50,
+                category: 'others',
+                skill: 'Lighthouse Studio',
+              },
+              {
+                id: 51,
+                category: 'others',
+                skill: 'Confirmit',
+              },
+              {
+                id: 52,
+                category: 'others',
+                skill: 'Confirmit Hierarchy Management',
+              },
+              {
+                id: 53,
+                category: 'others',
+                skill: 'Dundas BI',
+              },
+              {
+                id: 54,
+                category: 'others',
+                skill: 'Informatica cloud',
+              },
+              {
+                id: 55,
+                category: 'others',
+                skill: 'Socket.IO',
+              },
+
         ],
         achievements: [
-            'Generated new business by creating an innovative new product, streamlining claims, and optimizing sales for our app.',
-            'Created innovative configurations that reduced claims and servicing call volumes by 50-60% for a key client, saving over $400,000, resulting in the reallocation of 1 million minutes to more complex projects.',
-            'Developed a comprehensive guide and tracking file for state-specific rule configuration and testing in insurance claims, now applied across all client environments.',
-            'Trained new hires, providing mentorship to accelerate their integration into the team and company culture.'
+            'Solved the server load challenges in the Employee Engagement Software (now Engage) by developing the EJM (Engage Job Management) tool for monitoring and managing increased server load demands during critical business seasons, ensuring uninterrupted functionality, and enhancing overall performance by 50% during company peak periods.',
+            'Gained 96% success rate in handling multiple medium- to high-complex projects, leading to my promotion as a Senior Application Configuration Analyst.',
+            'One of the three new hires to be regularized and promoted out of 13 new hires in just 6 months.'
         ],
         buttonText: 'View More',
         date: 'May 2017 - December 2020',
@@ -170,37 +369,95 @@ const experienceData = [
             'Adipisicing elit excepteur enim non id sunt ipsum irure consectetur minim proident ut.'
         ],
         skills:[
-            {
-                id: 1,
-                catergory: 'techStack',
-                skill: 'Angular'
-            },
-            {
-                id: 2,
-                catergory: 'techStack',
-                skill: 'Javascript'
-            },
-            {
-                id: 3,
-                catergory: 'techStack',
-                skill: 'MongoDB'
-            },
-            {
-                id: 4,
-                catergory: 'others',
-                skill: 'Mockaroo'
-            },
-            {
-                id: 4,
-                catergory: 'BusinessSoft',
-                skill: 'Risk Management'
-            },
+              {
+                id: 56,
+                category: 'techStack',
+                skill: 'HTML5',
+              },
+              {
+                id: 57,
+                category: 'techStack',
+                skill: 'CSS3',
+              },
+              {
+                id: 58,
+                category: 'techStack',
+                skill: 'JavaScript',
+              },
+              {
+                id: 59,
+                category: 'techStack',
+                skill: 'jQuery',
+              },
+              {
+                id: 60,
+                category: 'techStack',
+                skill: 'AJAX',
+              },
+              {
+                id: 61,
+                category: 'techStack',
+                skill: 'JSON',
+              },
+              {
+                id: 62,
+                category: 'techStack',
+                skill: 'Bootstrap',
+              },
+              {
+                id: 63,
+                category: 'techStack',
+                skill: 'PHP',
+              },
+              {
+                id: 64,
+                category: 'techStack',
+                skill: 'SQL',
+              },
+              {
+                id: 65,
+                category: 'others',
+                skill: 'PDO',
+              },
+              {
+                id: 66,
+                category: 'others',
+                skill: 'OOP',
+              },
+              {
+                id: 67,
+                category: 'others',
+                skill: 'CI/CD',
+              },
+              {
+                id: 68,
+                category: 'others',
+                skill: 'Git/GitHub',
+              },
+              {
+                id: 69,
+                category: 'others',
+                skill: 'GitHub Actions',
+              },
+              {
+                id: 70,
+                category: 'others',
+                skill: 'SEO',
+              },
+              {
+                id: 71,
+                category: 'others',
+                skill: 'Figma',
+              },
+              {
+                id: 72,
+                category: 'others',
+                skill: 'Photoshop',
+              },
         ],
+
         achievements: [
-            'Generated new business by creating an innovative new product, streamlining claims, and optimizing sales for our app.',
-            'Created innovative configurations that reduced claims and servicing call volumes by 50-60% for a key client, saving over $400,000, resulting in the reallocation of 1 million minutes to more complex projects.',
-            'Developed a comprehensive guide and tracking file for state-specific rule configuration and testing in insurance claims, now applied across all client environments.',
-            'Trained new hires, providing mentorship to accelerate their integration into the team and company culture.'
+
         ],
         buttonText: 'View More',
         date: 'February 2019 - Present',
