@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
-// import wtwLogo from '../../assets/image/wtw.svg';
-// import BenekivaLogo from '../../assets/image/benekiva.svg';
 import { VerticalTimeline, VerticalTimelineElement} from 'react-vertical-timeline-component';
 import "react-vertical-timeline-component/style.min.css";
 import "./experience.css";
 
 import experienceData from './experienceData';
 import {BriefcaseIcon, AcademicCapIcon} from '../../assets/svg/svg';
+import ExperienceLeft from './experienceLeft';
 
 const Experience = () => {
 
@@ -19,60 +18,13 @@ const Experience = () => {
     setExpandedId(expandedId === itemId ? null : itemId);
   };
 
-
   return (
     <div className="grid grid-cols-12">
 
         {/* Left Container */}
-        <div className="col-span-5 bg-gray-100 min-h-200">
-        {/* Row 1 */}
-          <div className="h-1/3 bg-gray-100">
-            <div className="h-1/4 bg-blue-200 py-5 px-5">
-              
-            </div>
-            <div className="h-1/4 bg-gray-200 py-5 px-5">
-              
-            </div>
-            <div className="h-1/4 bg-red-200 py-5 px-5">
-              
-            </div>
-            <div className="h-1/4 bg-green-200 py-5 px-5">
-              
-            </div>
-          </div>
-
-          {/* Row 2 */}
-          <div className="h-1/3 bg-gray-100">
-              <div className="h-1/4 bg-blue-200 py-5 px-5">
-              
-              </div>
-              <div className="h-1/4 bg-gray-200 py-5 px-5">
-                
-              </div>
-              <div className="h-1/4 bg-red-200 py-5 px-5">
-                
-              </div>
-              <div className="h-1/4 bg-green-200 py-5 px-5">
-                
-              </div>
-          </div>
-
-          {/* Row 3 */}
-          <div className="h-1/3 bg-gray-100">
-              <div className="h-1/4 bg-blue-200 py-5 px-5">
-              
-              </div>
-              <div className="h-1/4 bg-gray-200 py-5 px-5">
-                
-              </div>
-              <div className="h-1/4 bg-red-200 py-5 px-5">
-                
-              </div>
-              <div className="h-1/4 bg-green-200 py-5 px-5">
-                
-              </div>
-          </div>
-      </div>
+        <div className="col-span-5  bg-gray-400">
+          <ExperienceLeft experienceData={experienceData} />
+        </div>
 
       {/* Right Container */}
       <div className="col-span-7 bg-gray-400 py-5 px-5 h-200 min-h-200">
